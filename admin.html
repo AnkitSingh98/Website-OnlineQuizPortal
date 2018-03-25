@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Admin here</title>
+
+ <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <style>button{background-color: #00ffff;font-size: 20px;padding: 16px;border-radius: 8px;}</style>
+	  
+</head>
+
+<body>
+<form class="col s12" action="adminEntry.php" method="post">
+      <div class="row">
+        <div class="input-field col s4">
+          <input style="margin-left:450px; margin-top:70px" placeholder="Enter Admin Password" name="adminp" type="password" class="validate" required>
+          
+        </div>
+       
+      </div>
+	  
+	  <div class="row">
+        <div class="input-field col s1">
+          <button style="margin-left:615px" name="submit" type="submit" value="Submit">Login</button>
+          
+        </div>
+      </div>
+	  
+	   <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	  <script>$(document).ready(function(){
+      $('.carousel').carousel();
+    });  </script>
+</body>
+</html>

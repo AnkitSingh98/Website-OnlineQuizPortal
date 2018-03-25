@@ -1,0 +1,86 @@
+<html>
+<head>
+<title><ake test</title>
+ <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  <style>button{background-color: #00ffff;font-size: 20px;padding: 16px;border-radius: 8px;}</style>
+</head>
+
+<body>
+
+<!-- Navigation Drawer -->
+	<nav>
+	<div class="nav-wrapper blue">
+	<a href="" class="brand-logo" style="margin-left:15px">Create the Test for ANDROID</a>
+	
+	</ul>
+	</div>
+	</nav>
+	<br>
+	
+	
+
+<form class="col s12" action="insertintoandroid.php" method="post">
+      <div class="row">
+        <div class="input-field col s4">
+          <input style="margin-left:450px; margin-top:70px" placeholder="Enter the Question" name="question" type="text" class="validate" required>
+          
+        </div>
+       
+      </div>
+    
+      <div class="row">
+        <div class="input-field col s4">
+          <input style="margin-left:450px" placeholder="Option a" name="a" type="text" class="validate" required>
+          
+        </div>
+      </div>
+	  <div class="row">
+        <div class="input-field col s4">
+          <input style="margin-left:450px" placeholder="Option b" name="b" type="text" class="validate" required>
+          
+        </div>
+      </div>
+	  
+	  <div class="row">
+        <div class="input-field col s4">
+          <input style="margin-left:450px" placeholder="Option c" name="c" type="text" class="validate" required>
+          
+        </div>
+      </div>
+	  
+	  <div class="row">
+        <div class="input-field col s4">
+          <input style="margin-left:450px" placeholder="Option d" name="d" type="text" class="validate" required>
+          
+        </div>
+      </div>
+	  
+	  <div class="row">
+        <div class="input-field col s4">
+          <input style="margin-left:450px" placeholder="Correct Ans" name="result" type="tex" class="validate" required>
+          
+        </div>
+      </div>
+	  
+	  <div class="row">
+        <div class="input-field col s4">
+          <button style="margin-left:615px" name="submit" type="submit" value="Submit">Submit</button>
+          
+        </div>
+      </div>
+	  
+	  <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	  <script>$(document).ready(function(){
+      $('.carousel').carousel();
+    });  </script>
+	
+</body>
+</html>
